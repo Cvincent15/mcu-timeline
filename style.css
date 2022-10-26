@@ -1,0 +1,462 @@
+/*CSS variables section*/
+:root {
+    background-color: rgba(0, 0, 21, 1);
+    
+}
+
+/*Extra Large screens - Extra large desktops*/
+.header{
+    
+
+}
+.header-large-screen{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    color:orange;
+    font-size: 18px !important;
+
+
+}
+#navDemo{
+    background-color: #000015;
+    
+}
+#navDemo a{
+    font-size: 13px !important;
+    color:orange;
+}
+
+.marvel{
+    height: 650px;
+    background-image: url("https://wallpaper.dog/large/996034.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-color: #000015; 
+
+    
+}
+.marvel-description{
+    height: 700px;
+    background-color: rgba(0, 0, 21, .7);
+    display: flex;
+}
+.marvel-text{
+    width:70% !important;
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.marvel-text p{
+    color:white;
+    width: 70%;
+}
+.marvel-title{
+     /* padding-top:80px; */
+     font-weight: 700;
+    text-transform: uppercase;
+    font-size: 80px;
+    color:orange;
+    
+    text-align: left;
+
+}
+.marvel-subtitle{
+     /* padding-top:80px; */
+     font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:orange;
+    
+    text-align: left;
+
+}
+/*no function*/
+.social{    
+    width:100%;
+}
+/*no function*/
+.icons{ 
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+main{
+    width:80% !important;
+    margin: auto !important;
+}
+.title{
+    color:white;
+    font-weight: 600;
+    font-size: 40px;;
+    margin:50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+/*no function*/
+.game-logo img{ 
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+h3{
+    color:white;
+    text-align: center;
+}
+/*no function*/
+.games{ 
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color:	rgba(0, 0, 47,0.3); */
+    justify-content: space-evenly;
+}
+/*no function*/
+.game-list{
+    margin: 30px;;
+    padding: 20px;
+    height: 250px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid gray;
+    background: rgba(255, 75, 255, 0.1);
+    box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/*no function*/
+.game-list:hover{
+    transform: scale(1.05);
+}
+/*no function*/
+.store{
+    margin-top: 50px;
+}
+/*no function*/
+.game-store{
+    margin-top: 20px !important;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+/*no function*/
+.game-image{
+    width:300px;
+    height: 180px;
+    
+}
+/*no function*/
+.game-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*no function*/
+.game-store-list{
+    width:300px;
+    height: 300px;
+     margin: 20px;
+    overflow: hidden;
+    border-top: none;
+    
+      -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+              box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-bottom: 1px solid blueviolet;
+    color:white;
+     
+}
+/*no function*/
+.store-text-description{
+     
+padding-left:20px;
+display: flex;
+flex-direction: column;
+     
+} 
+h4{
+    color:white;
+    font-weight: 700;
+}
+.timeline-marvel{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 75, 255, 0.1);
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px;
+    margin-top: 50px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-image: url("https://wallpaper.dog/large/996034.jpg");
+    background-position:center;
+    background-size: cover;
+    
+}
+.timeline-text{
+    width:50%;
+    color: orange;
+    background-color: black; padding: 25px;
+
+}
+.timeline-title{
+    font-size: 40px;
+    text-transform: uppercase;
+
+    font-weight: 600;
+    
+
+}
+.timeline-image{
+    width:400px;
+    height: 500px;
+}
+.timeline-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.timeline-text p{
+    color: white;
+}
+.contact{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-list{
+    margin-top: 15px !important;
+    color: white;
+}
+h5{
+    color:white;
+}
+span{
+    padding-right: 10px;
+}
+.contact-list p{
+}
+.email-contact{
+    width:80%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+/*General CSS and CSS reset*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* ____________________________________________________________________*/
+/*MEDIA QUERIES*/
+/*Large screens - Desktop*/
+@media screen and (max-width: 1500px) {
+    .marvel{
+        height: 550px !important;;
+        /*background-image: url("https://source.unsplash.com/HVYepJYeHdQ/1200x600");*/
+        background-image: url("https://wallpaper.dog/large/996034.jpg");
+    }
+    .marvel-description{
+        height: 550px
+    }
+    .marvel-title{
+        font-size:50px;
+    }
+}
+
+/*medium screens - Laptops*/
+@media screen and (max-width: 1024px) {
+    main{
+        width:100% !important;
+        margin: auto !important;
+    }    
+    
+}
+
+/*Small screens - tablets*/
+@media screen and (max-width: 768px) {
+    .header-large-screen{
+        display:block !important;
+    }
+    header a{
+        font-size: 14px;
+    }
+    .marvel{
+        height: 400px !important;
+        /* background-image: url("https://source.unsplash.com/HVYepJYeHdQ/480x300"); */
+        background-image: url("https://wallpaper.dog/large/996034.jpg");
+    }
+    .marvel-description{
+        height: 400px;
+        background-color: rgba(0, 0, 21, .7);
+        
+    
+    }
+    .marvel-title{
+        font-size: 35px;;
+        
+    }
+    .marvel-text p{
+        width: 80%;;
+        font-size: 13px;
+    }
+    .title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .timeline-text{
+        width:80%;
+        color: orange;
+
+    }
+    .timeline-text p{
+        font-size: 13px;
+    }
+    .timeline-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+
+    }
+    .timeline-hero{
+        width: 80% ;
+        margin: auto;
+    }
+    .timeline-image{
+        width:250px;
+        height: 400px;
+    }
+    .timeline-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-list{
+        width: 300px;
+    }
+    .contact{
+        justify-content: space-around;
+    }
+    .contact-list p{
+        font-size: 14px ;
+
+    }
+    h5{
+        font-size: 17px;
+    }
+    
+}
+
+/*Extra small screens - phones*/
+@media screen and (max-width: 480px) {
+    .heeder-large-screen{
+        display:block !important;
+    }
+    .hero{
+        height: 450px !important;
+        /* background-image: url("https://source.unsplash.com/HVYepJYeHdQ/480x300");*/
+        background-image: url("https://wallpaper.dog/large/996034.jpg");
+    }
+    .hero-description{
+        height: 450px;
+        background-color: rgba(0, 0, 21, .7);
+    
+    }
+    .hero-title{
+        font-size: 30px;;
+        padding-top: 70px;
+    }
+    .hero-text p{
+        width: 100%;;
+        font-size: 13px;
+    }
+    .title{
+        text-align: center;
+        font-size: 25px;
+    }
+    .timeline-text{
+        width:100%;
+        color: orange;
+        background-color: black; padding: 25px;
+
+    }
+    .timeline-text p{
+        font-size: 13px;
+    }
+    .timeline-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+
+    }
+    .timeline-hero{
+        width: 90% ;
+        margin: auto;
+    }
+    .timeline-image{
+        width:250px;
+        height: 400px;
+    }
+    .timeline-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-list{
+        width: 300px;
+        padding:25px;
+        border:1px solid rgba(49, 45, 45, 0.5);
+        border-radius: 10px;
+    }
+    .contact-list p{
+        font-size: 12px ;
+
+    }
+    h5{
+        font-size: 15px;
+    }
+    .badge{
+
+    }
+    p{
+        font-size: 12px;
+    }
+    
+}
